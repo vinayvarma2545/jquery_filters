@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        //     // $("li").filter(".first, .last").css("color", "red")
+        //     //     .css("backgroundColor", "yellow");
+            $("li").filter("#2,#4").css({"color":"blue","backgroundColor":"green","width":"130px"})   
+        });
+    </script>
+</head>"
+<body>
+    <ul>
+        <li id="1">GeeksForGeeks</li>
+        <li id="2">GeeksForGeeks</li>
+        <li id="3">GeeksForGeeks</li>
+        <li id="4">GeeksForGeeks</li>
+        <li id="5">GeeksForGeeks</li>
+    </ul>
+</body>
+</html>
